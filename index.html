@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>rock-paper-sizzer</title>
+    <link rel="stylesheet" href="style.css" charset="utf-8">
+  </head>
+  <body>
+    <div class="rock">
+      <img src="imgs/rock.jpg" alt="rock image" height="80%" width="100%" onclick="userSelection('rock')" />
+      <span class="imgtxt">
+        select rock
+      </span>
+    </div>
+    <div class="paper">
+      <img src="imgs/paper.jpg" alt="paper image" height="80%" width="100%" onclick="userSelection('paper')"/>
+      <span class="imgtxt">
+        select paper
+      </span>
+    </div>
+    <div class="sizzer">
+      <img src="imgs/sizzer.jpg" alt="sizzer image" height="80%" width="100%" onclick="userSelection('sizzer')" />
+      <span class="imgtxt">
+        select sizzer
+      </span>
+    </div>
+    <div class="cScore" >
+      <img src="imgs/win.jpeg" alt="happy" height="50px" width="50px" id="chappy" />
+      <span id="cpScore">computer points :</span>
+    </div>
+    <div class="yScore" >
+      <img src="imgs/win.jpeg" alt="happy" height="50px" width="50px" id="uhappy" />
+      <span id="upScore">your points :</span>
+    </div>
+    <script src="rps.js" charset="utf-8"></script>
+  </body>
+
+</html>

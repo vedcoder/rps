@@ -1,0 +1,65 @@
+.rock {
+  margin: 10px;
+  width: 30%;
+  height: 200px;
+  padding: 10px;
+#  background-color: silver;
+  float: left;
+  text-align: center;
+
+}
+
+.paper {
+  margin: 10px;
+  width: 30%;
+  height: 200px;
+  padding: 10px;
+#  background-color: blue;
+  float: left;
+  text-align: center;
+}
+
+.sizzer {
+  margin: 10px;
+  width: 30%;
+  height: 200px;
+  padding: 10px;
+#  background-color: red;
+  float: left;
+  text-align: center;
+}
+
+.imgtxt {
+  text-align: center;
+  font-size:2.0em;
+  font-family: cursive;
+}
+
+.hc{
+  background-color: yellow;
+}
+
+.chc{
+  background-color: green;
+}
+.cScore {
+  width: 48%;
+  height: 200px;
+  font-size: 4.0em;
+  text-align: center;
+  background-color: green;
+  clear: left;
+  float: left;
+  margin: 10px;
+
+}
+
+.yScore{
+  width: 48%;
+  text-align: center;
+  font-size: 4.0em;
+  height: 200px;
+  background-color: gold;
+  margin: 10px;
+  float: left;
+}
